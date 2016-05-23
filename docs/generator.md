@@ -706,7 +706,7 @@ g.next() // { done: true, value: 7 }
 
 ## yield*语句
 
-如果在Generater函数内部，调用另一个Generator函数，默认情况下是没有效果的。
+如果在Generator函数内部，调用另一个Generator函数，默认情况下是没有效果的。
 
 ```javascript
 function* foo() {
